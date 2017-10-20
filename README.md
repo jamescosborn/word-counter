@@ -7,7 +7,7 @@
 
 ## :small_blue_diamond: Description
 
-Word Counter is a simple website created with C# and the Model-View-Controller(MVC) Pattern. Upon viewing the website, the user will find a large header of the site's title, a short description of the website's functionality,  two text input fields, and a submit button.
+Word Counter is a website created with C# and the Model-View-Controller(MVC) Pattern. Upon viewing the website, the user will find a large header of the site's title, a short description of the website's functionality,  two text input fields, and a submit button.
 
 The short description will ask for a word from the user, then a sentence containing several instances of that word. The website will then check to see how many times the user's word appears in the user's sentence. Partial matches will not count, and the website will recognize words regardless of capitalization.
 
@@ -21,7 +21,7 @@ Once the user clicks the submit button, they will be taken to a new "Results" pa
 -Download and install the text editor Atom.  
 -In GitBash, enter `atom .` to view the project's code.
 
--To run the website, download and enter the Mono Command prompt.  
+-To run the website, download and enter the Mono Command prompt and the .net framework.  
 -Enter the command `dotnet restore` in Mono.  
 -Enter the command `dotnet run` in Mono.  
 -In a web browser like Chrome, go to the address `http://localhost:5000/`
@@ -32,7 +32,7 @@ Once the user clicks the submit button, they will be taken to a new "Results" pa
 
 -Emojis will not display in the ReadMe if you're using a text editor or browser that does not support them.    
 
-<jamescarlosborn@gmail.com>
+Please email the developer if you encounter a bug: <jamescarlosborn@gmail.com>
 
 ## :small_blue_diamond: Specs
 
@@ -73,6 +73,7 @@ HTML
 CSS  
 C#  
 MVC  
+.Net v1.1.3
 
 ## :small_blue_diamond: License
 
