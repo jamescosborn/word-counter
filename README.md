@@ -1,5 +1,5 @@
-# Word Counter  
-:scroll: :cool: :1234:
+# Word Counter :scroll: :cool: :1234:
+
 
 #### _A website that will check how frequently a word appears in a sentence._
 
