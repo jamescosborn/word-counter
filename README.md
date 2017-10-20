@@ -13,16 +13,31 @@ The short description will ask for a word from the user, then a sentence contain
 
 Once the user clicks the submit button, they will be taken to a new "Results" page. On the Results page, the user will see their sentence displayed with all of their selected words highlighted in bold. Below the sentence, the text is displayed, "Your word <user word> appears X times in the sentence." X will be replaced with the actual number of times the word appears in the sentence.
 
-## Known Bugs
+## :small_blue_diamond: Installation/Setup
 
--Scroll emoji won't display in the ReadMe.    
+-Download and install GitBash on your computer.  
+-Create and enter a directory somewhere called "WordCounter"  
+-Enter the command `git clone https://github.com/jamescosborn/word-counter`  
+-Download and install the text editor Atom.  
+-In GitBash, enter `atom .` to view the project's code.
+
+-To run the website, download and enter the Mono Command prompt.  
+-Enter the command `dotnet restore` in Mono.  
+-Enter the command `dotnet run` in Mono.  
+-In a web browser like Chrome, go to the address `http://localhost:5000/`
+
+
+
+## :small_blue_diamond: Known Bugs
+
+-Emojis won't display in the ReadMe if using a text editor or browser that does not support them.    
 
 <jamescarlosborn@gmail.com>
 
-## Specs
+## :small_blue_diamond: Specs
 
 | Spec  | Example Input: | Example Output: |
-|---|---|---|
+|:---|:---:|:---:|
 | The website presents the user with the rules for Word Counter. | User enters website address and presses enter.| The website displays the Word Counter description, two separate fields to input text, and a submit button. |
 | Clicking the submit button displays the results page. | User enters a word and sentence, then clicks button. | User is shown the results page. |
 | The user is not allowed to enter more than one word for the "chosen word" field. | User enters "Game of Thrones" | "Please enter only one word."
@@ -35,7 +50,7 @@ Once the user clicks the submit button, they will be taken to a new "Results" pa
 | The website shows all instances of their word highlighted within their sentence. | Word: "let" Sentence: "Let it be, let it be." | Your word: "__let__" Your sentence: "__Let__ it be, __let__ it be." |
 | The user is given a link to return to the main page and start again. | User clicks button called "Start over" | User is taken back to the page with the description and blank text fields.
 
-## Expansions/Updates
+## :small_blue_diamond: Expansions/Updates
 
 1. __Italics update -- 11/11/17__  
 
@@ -43,20 +58,22 @@ Once the user clicks the submit button, they will be taken to a new "Results" pa
     `User Interface styling` The website will be updated with custom graphics, a custom submit button, and other front end styling to the UI with CSS.
 
 
-## Support and contact details
+## :small_blue_diamond: Support and contact details
 
 Please contact the developers if you have any problems with this website, or if you'd like to offer feedback. <jamescarlosborn@gmail.com>
 
-## Technologies Used
+## :small_blue_diamond: Technologies Used
 
 Git  
-Atom  
+GitBash
+Atom
+Mono Command Prompt  
 HTML  
 CSS  
-C#
+C#  
 MVC  
 
-## License
+## :small_blue_diamond: License
 
 *This program uses the MIT license.*
 
