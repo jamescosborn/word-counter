@@ -1,11 +1,11 @@
 # Word Counter  
-:scroll:
+:scroll: :cool: :1234:
 
 #### _A website that will check how frequently a word appears in a sentence._
 
 #### by James Osborn, _Web Developer_
 
-## Description
+## :small_blue_diamond: Description
 
 Word Counter is a simple website created with C# and the Model-View-Controller(MVC) Pattern. Upon viewing the website, the user will find a large header of the site's title, a short description of the website's functionality, and two text input fields.
 
@@ -15,7 +15,7 @@ Once the user clicks the submit button, they will be taken to a new "Results" pa
 
 ## Known Bugs
 
-There are no known bugs at the time. Please contact the developer with any bugs you encounter, and you will be given credit in this ReadMe.     
+-Scroll emoji won't display in the ReadMe.    
 
 <jamescarlosborn@gmail.com>
 
@@ -24,16 +24,16 @@ There are no known bugs at the time. Please contact the developer with any bugs 
 | Spec  | Example Input: | Example Output: |
 |---|---|---|
 | The website presents the user with the rules for Word Counter. | User enters website address and presses enter.| The website displays the Word Counter description, two separate fields to input text, and a submit button. |
-| The user is able to enter a word and a sentence or phrase, then submit them by clicking a button. | User enters "let" as the user word. User enters "Let it be, let it be" as the user sentence, then clicks button. | User is shown the results page. |
+| Clicking the submit button displays the results page. | User enters a word and sentence, then clicks button. | User is shown the results page. |
 | The user is not allowed to enter more than one word for the "chosen word" field. | User enters "Game of Thrones" | "Please enter only one word."
 |The user is not allowed to enter numbers or special characters for the "chosen word" field. | User enters "Suda51!" | "No numbers or special characters are allowed."
 | The website will record the user's word. | Word: "let"| The website knows "let" is the user word.
 | The website will record the user's sentence. |  Sentence: "Let it be, let it be"  | The website knows that "Let it be, let it be" is the user sentence.
 | The website will be able to count words in the sentence regardless of capitalization. | Word: "let" Sentence: "Let it be, let it be." | User words are counted regardless of capitalization. |
-| The website will count the instances of the user's word in the user's sentence. | Word: "let" Sentence: "Let it be, let it be." | User word is counted twice in the user sentence.
+| The website will count all instances of the user's word in the user's sentence. | Word: "let" Sentence: "Let it be, let it be." | User word is counted twice in the user sentence.
 | The website shows the results page with how many times their word is in their sentence. | Word: "let" Sentence: "Let it be, let it be." | Your word occurs __2__ times in your sentence.
 | The website shows all instances of their word highlighted within their sentence. | Word: "let" Sentence: "Let it be, let it be." | Your word: "__let__" Your sentence: "__Let__ it be, __let__ it be." |
-| The user is given a link to return to the main page and start again | User clicks button called "Start over" | User is taken back to the page with the description and blank text fields.
+| The user is given a link to return to the main page and start again. | User clicks button called "Start over" | User is taken back to the page with the description and blank text fields.
 
 ## Expansions/Updates
 
@@ -59,3 +59,5 @@ MVC
 ## License
 
 *This program uses the MIT license.*
+
+:shipit:
